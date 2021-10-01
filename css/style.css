@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Uchen', serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0px 23px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 40vw;
+    border-radius: 2px;
+    margin: 0px 15px 0px 50px;
+    padding: 2px 10px;
+}
+.search button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.slider{
+    margin: 10px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.poster{
+    max-width: 90vw;
+    margin: 30px auto;
+    background-color:whitesmoke;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.posters{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.poster h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.poster-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+
+}
+.container{
+    min-height: calc(100vh - 55px - 10vh);
+    background-color: lightgrey;
+}
+
+footer{
+    margin: 5px 0 0 0;
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Uchen', serif;
+}
