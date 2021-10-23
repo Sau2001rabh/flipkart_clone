@@ -92,3 +92,30 @@ footer{
     color: white;
     font-family: 'Uchen', serif;
 }
+.sports{
+    margin-top: -18px;
+    margin-bottom: 15px;
+    width: 9em;
+    /* height: 1px; */
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.laptops{
+    margin-top: -18px;
+    margin-bottom: 15px;
+    width: 8em;
+    /* height: 1px; */
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.fashion{
+    margin-top: -18px;
+    margin-bottom: 15px;
+    width: 12em;
+    /* height: 1px; */
+    height: 2px;
+    background-color: black;
+    border: none;
+}
